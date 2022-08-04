@@ -5,13 +5,22 @@
 xcode-select --install
 ```
 
-## Clone this repo
+## Clone this repo in the home directory
 ```zsh
 # Use http
 git clone https://github.com/Durgesh-babu/.dotfiles.git
 
 # Or use ssh
 git clone git@github.com:Durgesh-babu/.dotfiles.git
+```
+
+## Create symlinks in home directory for files from current directory
+```zsh
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/.zprofile ~/.zprofile
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.hushlogin ~/.hushlogin
+
 ```
 
 ## Home Brew
