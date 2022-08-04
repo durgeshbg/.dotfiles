@@ -14,6 +14,8 @@ brew "harfbuzz"
 brew "ffmpeg"
 # Internet file retriever
 brew "wget"
+# Version Control System
+brew "git"
 # Open-source code editor
 cask "visual-studio-code"
 # Alfred 
