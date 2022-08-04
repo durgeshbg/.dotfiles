@@ -5,6 +5,15 @@
 xcode-select --install
 ```
 
+## Clone this repo
+```zsh
+# Use http
+git clone https://github.com/Durgesh-babu/.dotfiles.git
+
+# Or use ssh
+git clone git@github.com:Durgesh-babu/.dotfiles.git
+```
+
 ## Home Brew
 > 1. Install Brew  
 
