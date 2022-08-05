@@ -34,3 +34,9 @@ ln -s ~/.dotfiles/.hushlogin ~/.hushlogin
 ```zsh
 cd ~/.dotfiles && brew bundle
 ```
+
+## VS Code Extensions Install
+1. Run
+```zsh
+./vscode-extension-install.sh
+```
