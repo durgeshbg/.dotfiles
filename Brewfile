@@ -8,25 +8,25 @@ brew "python@3.10"
 brew "asciinema"
 # Core application library for C
 brew "glib"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Internet file retriever
 brew "wget"
-# Version Control System
-brew "git"
+# Free video downloader
+cask "4k-video-downloader"
+# Application launcher and productivity software
+cask "alfred"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Web browser
+cask "firefox"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Open-source code editor
 cask "visual-studio-code"
-# Alfred 
-cask "alfred"
-# Rectangle
-cask "rectangle"
-# Fire Fox
-cask "firefox"
-# Brave Browser
-cask "brave-browser"
-# Video Player
+# Multimedia player
 cask "vlc"
-# Video Downloader
-cask "4k-video-downloader"
