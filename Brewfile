@@ -30,3 +30,9 @@ cask "rectangle"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+# Voice and text chat software
+cask "discord"
+# Blender
+cask "blender"
+# Unity Editor
+cask "unity"
