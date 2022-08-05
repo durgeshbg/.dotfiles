@@ -36,7 +36,8 @@ cd ~/.dotfiles && brew bundle
 ```
 
 ## VS Code Extensions Install
-1. Run
+1. Change directory and run
+
 ```zsh
-./vscode-extension-install.sh
+cd ~/.dotfiles/vs-code && ./vscode-extension-install.sh
 ```
