@@ -4,3 +4,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Setting python 3.10 path
 export PATH="/opt/homebrew/opt/python@3.10/bin:$PATH"
+# Termianl Prompt
+export PROMPT="%n in %1~ %_$ "
