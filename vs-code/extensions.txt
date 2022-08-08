@@ -10,3 +10,4 @@ PKief.material-icon-theme
 pranaygp.vscode-css-peek
 ritwickdey.LiveServer
 sdras.night-owl
+vscodevim.vim
