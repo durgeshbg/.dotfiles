@@ -1,9 +1,13 @@
+burkeholland.simple-react-snippets
 CoenraadS.bracket-pair-colorizer-2
 eamodio.gitlens
 ecmel.vscode-html-css
 esbenp.prettier-vscode
 mechatroner.rainbow-csv
 ms-python.python
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
 necinc.elmmet
 oderwat.indent-rainbow
 PKief.material-icon-theme
