@@ -6,3 +6,5 @@ mas install 1147396723
 mas install 1497435571
 # Telegram
 mas install 747648890
+# One Note
+mas install 410395246
