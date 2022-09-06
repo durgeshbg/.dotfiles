@@ -10,6 +10,7 @@ ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
 necinc.elmmet
 oderwat.indent-rainbow
+patbenatar.advanced-new-file
 PKief.material-icon-theme
 pranaygp.vscode-css-peek
 ritwickdey.LiveServer
