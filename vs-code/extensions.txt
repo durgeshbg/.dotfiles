@@ -3,11 +3,13 @@ CoenraadS.bracket-pair-colorizer-2
 eamodio.gitlens
 ecmel.vscode-html-css
 esbenp.prettier-vscode
+GitHub.codespaces
 mechatroner.rainbow-csv
 ms-python.python
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
+ms-vscode.cpptools
 necinc.elmmet
 oderwat.indent-rainbow
 patbenatar.advanced-new-file
