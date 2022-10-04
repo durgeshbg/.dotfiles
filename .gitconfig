@@ -3,5 +3,5 @@
     email = 84910181+Durgesh-babu@users.noreply.github.com
     
 [core]
-    editor = vim
+    editor = code --wait
  
