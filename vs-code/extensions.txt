@@ -1,14 +1,18 @@
 burkeholland.simple-react-snippets
+CamilaMartinezBedoya.pro-hacker-theme
 CoenraadS.bracket-pair-colorizer-2
 eamodio.gitlens
 ecmel.vscode-html-css
 esbenp.prettier-vscode
 GitHub.codespaces
 mechatroner.rainbow-csv
+ms-python.isort
 ms-python.python
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
 ms-vscode.cpptools
 necinc.elmmet
 oderwat.indent-rainbow
@@ -18,3 +22,4 @@ pranaygp.vscode-css-peek
 ritwickdey.LiveServer
 sdras.night-owl
 vscodevim.vim
+wushuaiBUAA.autocomplete-english-word
