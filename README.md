@@ -38,17 +38,18 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ```
 
 ---
 
 
 ## Home Brew
-1. Install Brew.
+- Install Brew.
     ```zsh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
-2. Install bundle
+- Install bundle
     1. Change to the .dotfiles directory.
     ```zsh
     cd ~/.dotfiles
@@ -57,30 +58,38 @@ ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
     ```zsh
     brew bundle
     ```
-
+- Brewfile Creation
+    - If already exists overide in cwd.
+    ```zsh
+    brew bundle dump --force
+    ```
+    - else
+    ```zsh
+    brew bundle dump
+    ```
 ---
 
 
-## Terminal Configuration
-1. Install oh-my-zsh
+## Terminal Configuration (Optional)
+- Install oh-my-zsh
     ```zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     ```
-2. Install Powerlevel10k theme into the costum zsh theme folder.
+- Install Powerlevel10k theme into the costum zsh theme folder.
     ```zsh
     git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
     ```
 
-3. Install plugins.
-    1. Zsh autosuggestions. 
+- Install plugins.
+    - Zsh autosuggestions. 
         ```zsh
         git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
         ```
-    2. Zsh syntax highlighting.
+    - Zsh syntax highlighting.
         ```zsh
         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
         ```
-4. Edit .zshrc
+- Edit .zshrc
     - Find ZSH_THEME
         ```zsh
         ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -103,49 +112,49 @@ ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
 
 ## VS Code Extensions Install
-1. Change to vs-code directory inside the .dotfiles directory.
+- Change directory for extensions.txt
     ```zsh
     cd ~/.dotfiles/vs-code
     ```
-2. Run the bash script file.
+- Run install.sh
     ```zsh
-    ./vscode-extension-install.sh
+    ./install.sh
+    ```
+- Create extensions.txt
+    ```zsh
+    code --list-extensions >> ~/.dotfiles/vs-code/extensions.txt
     ```
 
 ---
 
 
 ## Node Installation
-1. Install nvm.
-    1. Installation.
-        ```zsh
-        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-        ```
-    2. Check nvm installation version.
-        ```zsh
-        nvm --version
-        ```
+- Install nvm.
+    ```zsh
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    ```
+    ```zsh
+    nvm --version
+    ```
 
-2. Install Node.
-    1. Installation of 
-        ```zsh
-        nvm install --lts
-        ```
-    2. Setting the Node version to long term support.
-        ```zsh
-        nvm use --lts
-        ```
+- Install Node.
+    ```zsh
+    nvm install --lts
+    ```
+    ```zsh
+    nvm use --lts
+    ```
 ---
 
 
 ## Install Python packages
-1. Change to the .dotfiles directory.
-    ```zsh
-    cd ~/.dotfiles
-    ```
-2. Run the pip3 install command.
+- Run the pip3 install command.
     ```zsh
     pip3 install -r requirements.txt
+    ```
+- Create requirements.txt
+    ```zsh
+    pip freeze >> ~/.dotfiles/requirements.txt
     ```
 
 ---
