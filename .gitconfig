@@ -4,3 +4,10 @@
     
 [core]
     editor = code --wait
+	excludesfile = /Users/durgesh/.gitignore_global
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
