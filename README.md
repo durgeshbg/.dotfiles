@@ -39,6 +39,7 @@ ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
+ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
 ```
 
 ---
@@ -111,19 +112,11 @@ ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ---
 
 
-## VS Code Extensions Install
-- Change directory for extensions.txt
-    ```zsh
-    cd ~/.dotfiles/vs-code
-    ```
-- Run install.sh
-    ```zsh
-    ./install.sh
-    ```
-- Create extensions.txt
-    ```zsh
-    code --list-extensions >> ~/.dotfiles/vs-code/extensions.txt
-    ```
+## VSCodeVim
+To enable key-repeating, execute the following in your Terminal, log out and back in, and then restart VS Code:
+```zsh
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+```
 
 ---
 
