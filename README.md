@@ -71,6 +71,37 @@ ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
 ---
 
 
+## Node Installation
+- Install nvm.
+    ```zsh
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    ```
+    ```zsh
+    nvm --version
+    ```
+
+- Install Node.
+    ```zsh
+    nvm install --lts
+    ```
+    ```zsh
+    nvm use --lts
+    ```
+---
+
+
+## Install Python packages
+- Run the pip3 install command.
+    ```zsh
+    pip3 install -r requirements.txt
+    ```
+- Create requirements.txt
+    ```zsh
+    pip freeze >> ~/.dotfiles/requirements.txt
+    ```
+
+---
+
 ## Terminal Configuration (Optional)
 - Install oh-my-zsh
     ```zsh
@@ -112,7 +143,7 @@ ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
 ---
 
 
-## VSCodeVim
+## VSCodeVim (Optional)
 To enable key-repeating, execute the following in your Terminal, log out and back in, and then restart VS Code:
 ```zsh
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
@@ -120,34 +151,7 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 ---
 
-
-## Node Installation
-- Install nvm.
-    ```zsh
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-    ```
-    ```zsh
-    nvm --version
-    ```
-
-- Install Node.
-    ```zsh
-    nvm install --lts
-    ```
-    ```zsh
-    nvm use --lts
-    ```
----
-
-
-## Install Python packages
-- Run the pip3 install command.
-    ```zsh
-    pip3 install -r requirements.txt
-    ```
-- Create requirements.txt
-    ```zsh
-    pip freeze >> ~/.dotfiles/requirements.txt
-    ```
-
----
+## TPM for Tmux (Optional)
+```zsh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
