@@ -35,8 +35,8 @@ xcode-select --install
 ## Create symlinks in home directory for files from current directory
 ```zsh
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
-ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.zprofile ~/.zprofile
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
@@ -88,17 +88,6 @@ ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
     nvm use --lts
     ```
 ---
-
-
-## Install Python packages
-- Run the pip3 install command.
-    ```zsh
-    pip3 install -r requirements.txt
-    ```
-- Create requirements.txt
-    ```zsh
-    pip freeze >> ~/.dotfiles/requirements.txt
-    ```
 
 ---
 

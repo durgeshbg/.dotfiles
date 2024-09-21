@@ -3,7 +3,7 @@
     email = 84910181+Durgesh-babu@users.noreply.github.com
     
 [core]
-    editor = nvim
+    editor = code --wait
 	excludesfile = /Users/durgesh/.gitignore_global
 [color]
 	ui = auto
