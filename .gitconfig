@@ -3,11 +3,11 @@
     email = 84910181+Durgesh-babu@users.noreply.github.com
     
 [core]
-    editor = code --wait
-	excludesfile = /Users/durgesh/.gitignore_global
+    editor = nvim
+		excludesfile = /Users/durgesh/.gitignore_global
 [color]
-	ui = auto
+		ui = auto
 [init]
-	defaultBranch = main
+		defaultBranch = main
 [pull]
-	rebase = false
+		rebase = false

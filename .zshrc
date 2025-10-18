@@ -48,7 +48,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -126,5 +126,24 @@ export NVM_DIR="$HOME/.nvm"
 alias python='python3'
 alias pip='pip3'
 
+alias nd='npm run dev'
+alias nb='npm run build'
+alias ns='npm run start'
+alias nt='npm test'
+
+# Tmux aliases
+alias t='tmux'
+alias ta='tmux attach -t'
+alias tl='tmux ls'
+alias tr='tmux rename-session -t'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/durgesh/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
