@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "mongodb/brew"
 brew "docker-compose"
 brew "ffmpeg"

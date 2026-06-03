@@ -22,11 +22,11 @@ xcode-select --install
 2. Clone this repository.
     ```zsh
     # Use http
-    git clone https://github.com/Durgesh-babu/.dotfiles.git
+    git clone https://github.com/durgeshbg/.dotfiles.git
     ```
     ```zsh
     # Or use ssh
-    git clone git@github.com:Durgesh-babu/.dotfiles.git
+    git clone git@github.com:durgeshbg/.dotfiles.git
     ```
 
 ---

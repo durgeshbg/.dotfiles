@@ -125,6 +125,7 @@ export NVM_DIR="$HOME/.nvm"
 # aliases
 alias python='python3'
 alias pip='pip3'
+alias k='kubectl'
 
 alias nd='npm run dev'
 alias nb='npm run build'
@@ -147,3 +148,24 @@ fpath=(/Users/durgesh/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+# bun completions
+[ -s "/Users/durgesh/.bun/_bun" ] && source "/Users/durgesh/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+. "/Users/durgesh/.deno/env"
+
+# zoxide
+eval "$(zoxide init zsh)"
+export _ZO_EXCLUDE_DIRS="/tmp:/var:/node_modules"
+export _ZO_DATA_DIR="$HOME/.local/share/zoxide"
+export _ZO_EXCLUDE_PATHS=".git"
+
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/Users/durgesh/.zsh/completions:"* ]]; then export FPATH="/Users/durgesh/.zsh/completions:$FPATH"; fi
+
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+export PATH="/Users/durgesh/.local/bin:$PATH"
