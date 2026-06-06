@@ -62,6 +62,8 @@ ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
 
   ```zsh
   brew bundle
+
+  > Note: Run Twice to fix npm deps installation
   ```
 
 - Brewfile Creation
@@ -163,10 +165,29 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ## Misc
 
-### Sync iterm settings
+- Sync iterm settings
+  - Settings > General > Settings
+- Disable Spotlight if using Alfred
+  - Settings > Keyboard > Shortcuts > Disable from there
+- Install nerdfonts - [Here](https://www.nerdfonts.com/font-downloads)
 
-Settings > General > Settings
+- Solana
 
-### Disable Spotlight
+```zsh
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
+```
 
-Settings > Keyboard > Shortcuts > Disable from there
+- dvim repo copy
+
+- touch .hushlogin
+
+- Mac Settings: `bash settings.sh`
+
+## Sync Notes
+
+Always keep these in sync
+
+- brew packages
+- iterm2 settings
+- Rectabgle Settings
+- System Settings

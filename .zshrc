@@ -155,7 +155,6 @@ compinit
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-. "/Users/durgesh/.deno/env"
 
 # zoxide
 eval "$(zoxide init zsh)"
@@ -166,6 +165,5 @@ export _ZO_EXCLUDE_PATHS=".git"
 # Add deno completions to search path
 if [[ ":$FPATH:" != *":/Users/durgesh/.zsh/completions:"* ]]; then export FPATH="/Users/durgesh/.zsh/completions:$FPATH"; fi
 
-export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 export PATH="/Users/durgesh/.local/bin:$PATH"
