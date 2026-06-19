@@ -1,65 +1,68 @@
 tap "anomalyco/tap"
 tap "f/textream"
 tap "mongodb/brew"
+# Incredibly fast JavaScript runtime, bundler, test runner, and package manager
 brew "bun"
-brew "docker-compose"
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Improved top (interactive process viewer)
 brew "htop"
-brew "kind"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Simple terminal UI for git commands
 brew "lazygit"
+# C library for reading, creating, and modifying zip archives
 brew "libzip"
+# Powerful, lightweight programming language
 brew "lua"
+# Package manager for the Lua programming language
 brew "luarocks"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-brew "redis", restart_service: :changed
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Safe, concurrent, practical language
 brew "rust"
+# Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Internet file retriever
 brew "wget"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
-brew "anomalyco/tap/opencode"
-brew "mongodb/brew/mongodb-database-tools"
-brew "mongodb/brew/mongodb-community"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
+# This package contains standard utilities for interacting with MongoDB.
+brew "mongodb/brew/mongodb-database-tools", trusted: true
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community", trusted: true
+# Application launcher and productivity software
 cask "alfred"
-cask "cursor"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# Web browser
 cask "google-chrome"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# File system integration
 cask "macfuse"
+# Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# VPN client focusing on security
 cask "protonvpn"
+# Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-cask "redis-insight"
+# Multimedia player
 cask "vlc"
-cask "zoom"
-vscode "anysphere.cursorpyright"
-vscode "bradlc.vscode-tailwindcss"
-vscode "davidanson.vscode-markdownlint"
-vscode "dbaeumer.vscode-eslint"
-vscode "dsznajder.es7-react-js-snippets"
-vscode "eamodio.gitlens"
-vscode "ecmel.vscode-html-css"
-vscode "esbenp.prettier-vscode"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-azuretools.vscode-docker"
-vscode "ms-playwright.playwright"
-vscode "ms-python.debugpy"
-vscode "ms-python.python"
-vscode "naumovs.color-highlight"
-vscode "oderwat.indent-rainbow"
-vscode "prisma.prisma"
-vscode "qwtel.sqlite-viewer"
-vscode "rust-lang.rust-analyzer"
-vscode "serayuzgur.crates"
-vscode "tamasfe.even-better-toml"
-vscode "unifiedjs.vscode-mdx"
-vscode "usernamehw.errorlens"
-vscode "vadimcn.vscode-lldb"
-vscode "vscode-icons-team.vscode-icons"
-vscode "vscodevim.vim"
-vscode "vsls-contrib.codetour"
 cargo "avm"
+npm "agent-browser"
 npm "corepack"
