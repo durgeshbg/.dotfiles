@@ -181,6 +181,8 @@ curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev 
 
 - touch .hushlogin
 
+- CMD + J: Sort options for finder
+
 - Mac Settings: `bash settings.sh`
 
 ## Sync Notes

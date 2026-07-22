@@ -167,3 +167,4 @@ if [[ ":$FPATH:" != *":/Users/durgesh/.zsh/completions:"* ]]; then export FPATH=
 
 export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 export PATH="/Users/durgesh/.local/bin:$PATH"
+export PATH="/Users/durgesh/.cargo/bin:$PATH"
