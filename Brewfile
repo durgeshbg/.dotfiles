@@ -7,6 +7,8 @@ brew "bun"
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Improved top (interactive process viewer)
@@ -49,6 +51,8 @@ brew "mongodb/brew/mongodb-community", trusted: true
 cask "alfred"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Collaborative team software
+cask "figma"
 # Web browser
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
