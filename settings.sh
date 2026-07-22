@@ -162,7 +162,15 @@ defaults write com.apple.finder ShowItemInfo -bool true
 defaults write com.apple.finder FXPreferredSortBy -string "name"
 
 # Reset old settings
-# sudo find / -name .DS_Store -delete
+sudo find / -name .DS_Store -delete
+
+# ─────────────────────────────────────────────
+# MISC
+# ─────────────────────────────────────────────
+
+# VS Code — Disable press-and-hold for keys in favor of key repeat
+
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 # ─────────────────────────────────────────────
 # RESTART AFFECTED SERVICES
