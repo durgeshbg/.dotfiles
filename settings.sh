@@ -165,6 +165,15 @@ defaults write com.apple.finder FXPreferredSortBy -string "name"
 sudo find / -name .DS_Store -delete
 
 # ─────────────────────────────────────────────
+# Disable HotCorners
+# ─────────────────────────────────────────────
+
+defaults write com.apple.dock wvous-tl-corner -int 1
+defaults write com.apple.dock wvous-tr-corner -int 1
+defaults write com.apple.dock wvous-bl-corner -int 1
+defaults write com.apple.dock wvous-br-corner -int 1
+
+# ─────────────────────────────────────────────
 # MISC
 # ─────────────────────────────────────────────
 
