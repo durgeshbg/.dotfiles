@@ -169,8 +169,9 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ## Misc
 
-- Sync iterm settings
-  - Settings > General > Settings
+<!-- - Sync iterm settings -->
+
+- Settings > General > Settings
 - Disable Spotlight if using Alfred
   - Settings > Keyboard > Shortcuts > Disable from there
 - Install nerdfonts - [Here](https://www.nerdfonts.com/font-downloads)
@@ -194,6 +195,8 @@ curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev 
 Always keep these in sync
 
 - brew packages
-- iterm2 settings
+
+<!-- - iterm2 settings -->
+
 - Rectabgle Settings
 - System Settings

@@ -6,6 +6,8 @@ theme = TokyoNight Storm
 background-opacity = 0.85
 background-blur = true
 
+quit-after-last-window-closed = true
+
 # Make Option act as Alt on macOS (needed for Alt/Meta bindings in tmux)
 macos-option-as-alt = true
 
