@@ -123,14 +123,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # aliases
-alias python='python3'
-alias pip='pip3'
 alias k='kubectl'
-
-alias nd='npm run dev'
-alias nb='npm run build'
-alias ns='npm run start'
-alias nt='npm test'
 
 # Tmux aliases
 alias t='tmux'
