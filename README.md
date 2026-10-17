@@ -41,6 +41,10 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
+
+# Ghostty deleting existing config
+rm ~/Library/Application\ Support/com.mitchellh.ghostty/config.ghostty
+ln -s ~/.dotfiles/config.ghostty ~/Library/Application\ Support/com.mitchellh.ghostty/config.ghostty
 ```
 
 ---
