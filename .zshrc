@@ -84,6 +84,8 @@ vi-mode
 zsh-syntax-highlighting
 )
 
+# Use a bar in vi insert mode and a block in normal mode, including inside tmux.
+VI_MODE_SET_CURSOR=true
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
